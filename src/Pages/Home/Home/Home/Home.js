@@ -17,9 +17,11 @@ const Home = () => {
 
                     <Banner></Banner>
                     <AboutMe></AboutMe>
+                    <hr className='lg:mx-40 font-bold mt-5'/>
                     <Skills></Skills>
                     <hr className='lg:mx-40 font-bold mt-5'/>
                     <Projects></Projects>
+                    <hr className='lg:mx-40 font-bold mt-10'/>
                     <ContactMe></ContactMe>
                     <Footer></Footer>
 
@@ -29,20 +31,18 @@ const Home = () => {
                     <ul className="menu p-4 w-80 bg-base-100 text-base-content ">
                         {/* <!-- Sidebar content here --> */}
                         <li className='menu menu-compact dropdown-content my-3 p-2 mr-3 font-semibold border-l-4 border-[#213038] shadow bg-base-100 rounded-md w-full
-                        transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105 duration-300
-                        '><a href='#about'>About Me</a></li>
+                        transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105 duration-300 hover:bg-white
+                        '><a href='#about' className='hover:bg-white'>About Me</a></li>
                         <li className='menu menu-compact dropdown-content my-3 p-2 mr-3 font-semibold border-l-4 border-[#213038] shadow bg-base-100 rounded-md w-full
                          transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105 duration-300
-                        '><a href='#skills'>Skills</a></li>
+                        '><a href='#skills' className='hover:bg-white'>Skills</a></li>
                         <li className='menu menu-compact dropdown-content my-3 p-2 mr-3 font-semibold border-l-4 border-[#213038] shadow bg-base-100 rounded-md w-full
                          transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105 duration-300
-                        '><a href='#projects'>Projects</a></li>
+                        '><a href='#projects' className='hover:bg-white'>Projects</a></li>
                         <li className='menu menu-compact dropdown-content my-3 p-2 mr-3 font-semibold border-l-4 border-[#213038] shadow bg-base-100 rounded-md w-full
                          transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105 duration-300
-                        '><a href='#contact'>Contact Me</a></li>
-                        <li className='menu menu-compact dropdown-content my-3 p-2 mr-3 font-semibold border-l-4 border-[#213038] shadow bg-base-100 rounded-md w-full
-                         transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105 duration-300
-                        '><Link to='/blog'>Blogs</Link></li>
+                        '><a href='#contact' className='hover:bg-white'>Contact Me</a></li>
+                        
                     </ul>
                 </div>
             </div>

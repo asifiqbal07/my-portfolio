@@ -37,7 +37,7 @@ const ContactMe = () => {
       );
   };
   return (
-    <section id="contact" className='lg:mx-40 mx-auto lg:mt-16'>
+    <section id="contact" className='lg:mx-40 mx-auto lg:mt-8'>
       <h5 className='font-light text-4xl text-center my-5'>Contact Me</h5>
 
       <div className='lg:flex items-center mt-7 '>
@@ -78,7 +78,7 @@ const ContactMe = () => {
               <textarea className=" textarea  my-1 w-full" placeholder="Your Message"></textarea>
             </div>
             <hr />
-            <button type="submit" value="Send" className="rounded-none btn bg-[#3078fb] border-0  hover:bg-white hover:text-[#3078fb] hover:border-[1px] hover:border-[#3078fb] mt-4">
+            <button type="submit" value="Send" className="rounded-none btn bg-[#213038] border-0  hover:bg-white hover:text-[#213038] hover:border-[1px] hover:border-[#213038] mt-4">
               Send Message
             </button>
           </form>

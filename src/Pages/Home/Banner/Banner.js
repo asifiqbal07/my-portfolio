@@ -1,7 +1,6 @@
 import React from 'react';
-import banner from '../../../assets/banner.jpg'
+import banner from '../../../assets/banner 2.jpg'
 import { HiBars3BottomRight } from "react-icons/hi2";
-import Navbar from '../../Shared/Navbar/Navbar';
 
 const Banner = () => {
     return (
@@ -11,8 +10,8 @@ const Banner = () => {
                  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105 duration-300
                 "><HiBars3BottomRight className='lg:text-white text-2xl text-[#080404]'></HiBars3BottomRight></label>
             </div>
-            <div className='border-b-4 border-[#213038]'>
-                <img className='hidden lg:block' src={banner} alt="" />
+            <div className='border-b-4 border-[#242e39]'>
+                <img className='hidden lg:block object-cover h-2/3 w-full' src={banner} alt="" />
             </div>
         </div>
     );
